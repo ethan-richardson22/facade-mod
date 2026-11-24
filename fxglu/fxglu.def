@@ -1,0 +1,3 @@
+LIBRARY FXGLU
+; GLU exports are forwarded to the real glu32.dll via #pragma comment(linker, "/export:...")
+; in fxglu.c

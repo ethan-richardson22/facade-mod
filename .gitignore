@@ -1,0 +1,23 @@
+# The game itself is copyrighted - never commit it
+game/
+
+# Third-party 3DS port (not ours, no license)
+port3ds/
+
+# Build outputs
+fxglu/*.dll
+fxglu/*.lib
+fxglu/*.exp
+fxglu/*.obj
+fxglu/*.pdb
+
+# Runtime logs / backups if a game folder is ever placed here
+*.log
+*.orig
+
+# Local junk
+*.lnk
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
