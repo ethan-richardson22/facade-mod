@@ -94,6 +94,10 @@ perfstats=0         ; timing statistics every 10 s
 - Engine addresses are hard-coded for the stock 2005 `animEngineDLL.dll`; the patcher checks the bytes it changes and refuses to patch an unexpected file.
 - The engine uploads textures without mipmaps, so the `anisotropy` setting currently has little visible effect.
 
+## Additional Credits
+- Claude Code, for writing all of the programming
+- CowBoyMeatBall, the creator of the [3ds Façade demake](https://archive.org/details/Facade-for-3DS), whose decompiled code helped guide Claude on fixing issues
+
 ## Disclaimer
 
 Unofficial fan project, not affiliated with or endorsed by the creators of Façade (Michael Mateas and Andrew Stern / Procedural Arts). Façade and its assets belong to their respective owners; this repository contains only original code for the add-on and patcher.
